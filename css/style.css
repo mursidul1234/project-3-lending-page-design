@@ -1,0 +1,433 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	width:1140px;
+	margin: 0 auto;
+}
+header{
+    width: 100%;
+    float: left;
+    height:50px;
+    float: left;
+}
+.logo img{
+    height: 50px;
+    float: left;
+}
+.menu {
+	width:50%;
+	float: left;
+}
+nav ul {
+	list-style: none;
+	
+}
+nav ul li{
+	display: inline-block;
+    margin: 1 auto;
+    margin: 12px 44px;
+    float:none;
+
+}
+nav ul li a{
+	text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: serif;
+    font-weight: 500;
+
+}
+.icon{
+	width: 30%;
+	float: left;
+}
+.icon ul{
+	list-style:none;
+
+}
+.icon ul li {
+    display: inline-block;
+    margin: 11px 15px;
+
+}
+.icon ul li a{
+	    font-size: 18px;
+
+}
+.icon-button {
+    transform: translate(419px, -30px);
+    color: #950526;
+    padding: 2px;
+    background: green;
+    color: white;
+    border-radius: 5px;
+}
+.fa.fa-google-plus {
+    padding: 2px;
+    background: #0A82EC;
+    border-radius: 27px;
+    color: #FFF;
+    transition: 0.4s;
+}
+.fa.fa-google-plus:hover{
+	transform: rotate(360deg);
+	background: red;
+
+}
+.fa.fa-youtube-play{
+    padding: 2px;
+    background:#fff;
+    border-radius: 27px;
+    color: red;
+    transition: 0.4s;
+}
+.fa.fa-youtube-play:hover{
+	transform: rotate(360deg);
+	background:#FFF;
+
+}
+.fa.fa-github{
+	padding: 2px;
+    background:#0A82EC;
+    border-radius: 27px;
+    color: #FFF;
+    transition: 0.4s;
+
+}
+.fa.fa-github:hover{
+	transform: rotate(360deg);
+}
+.fa.fa-share-square{
+	padding: 2px;
+	background:#0A82EC;
+	border-radius: 27px;
+	color:#fff;
+	transition: 0.4s;
+
+}
+.fa.fa-share-square:hover{
+	transform: rotate(360deg);
+}
+/*banner section*/
+.banner{
+	width: 100%;
+	float: left;
+}
+.banner-one{
+	background-image: url('../img/bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width:100%;
+	height: 340px;
+	float: left;
+}
+.banner-two {
+    background: #1a1a1a38;
+    width: 291px;
+    height: 181px;
+    margin: 49px 33px;
+}
+.banner-two h1{
+	font-size: 40px;
+
+}
+
+.banner-two p{
+	font-size: 16px;
+
+}
+.banner-btn-one{
+	padding: 7px 9px;
+    margin: 5px 0px;
+    padding: 10px5px;
+    color: white;
+    background: green;
+
+}
+/*body one*/
+.body{
+	width: 100%;
+	float: left;
+}
+.body-one{
+	width: 25%;
+	float: left;
+}
+.body-one img {
+    width: 108px;
+    height: 96px;
+}
+.body-btn-one {
+    padding: 5px 9px;
+    background: green;
+    color: white;
+    margin: 3px;
+}
+.body-two{
+	width: 25%;
+	float: left;
+}
+.body-two img {
+    width: 108px;
+    height: 96px;
+}
+.body-btn-two {
+    padding: 5px 9px;
+    background: green;
+    color: white;
+    margin: 3px;
+}
+
+.body-three{
+	width: 25%;
+	float: left;
+}
+.body-three img {
+    width: 108px;
+    height: 96px;
+}
+.body-btn-three {
+    padding: 5px 9px;
+    background: green;
+    color: white;
+    margin: 3px;
+}
+.body-four{
+	width: 25%;
+	float: left;
+}
+.body-four img {
+    width: 108px;
+    height: 96px;
+}
+.body-btn-four {
+    padding: 5px 9px;
+    background: green;
+    color: white;
+    margin: 3px;
+}
+/*money section*/
+.money{
+	width: 100%;
+	float: left;
+}
+.money-one{
+	width:48%;
+	float: left;
+}
+.money-one{
+	background:#B7CCD3;
+	height: 250px;!important
+}
+.money-title{
+	text-align: center;
+
+}
+#icon-align{
+
+}
+.money-title h2{
+	display: inline-block;
+    margin: block;
+    margin-left: -62px;
+    font-family: ui-monospace;
+}
+
+.money-title ul{
+	list-style: none;
+
+}
+.money-title ul li{
+}
+
+.money-title a {
+    text-decoration: none;
+    display: table;
+    margin: 9px 146px;
+}
+.money-btn {
+    display: block;
+    padding: 6px 1px;
+    margin: 29px 143px;
+    background: green;
+    color: white;
+}
+.money-two{
+	width:48%;
+	float: left;
+	transform: translate(59px, 0px);
+}
+.money-two{
+	background:#B7CCD3;
+	height: 250px;!important
+}
+.money-title{
+	text-align: center;
+
+}
+.money-title h2{
+}
+
+.money-title ul{
+	list-style: none;
+
+}
+.money-title ul li{
+}
+
+.money-title a {
+    text-decoration: none;
+    display: table;
+    margin: 9px 146px;
+}
+.money-btn {
+    display: block;
+    padding: 6px 1px;
+    margin: 29px 143px;
+    background: green;
+    color: white;
+}
+/*news section*/
+.news{
+	width: 100%;
+	float: left;
+}
+.news-one{
+	width: 50%;
+	float: left;
+}
+.news-one h2{
+	text-transform: capitalize;
+    font-family: emoji;
+
+}
+.news-one span{
+	border: 1px solid green;
+    display: block;
+    width: 8%;
+}
+.news-one h1{
+    width: 70%;
+}
+.news-one p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+    width: 75%;
+
+}
+.news-btn{
+	padding: 6px 10px;
+    text-transform: lowercase;
+    margin: 22px -1px;
+    background: green;
+    color: white;
+
+}
+.news-two {
+    width: 50%;
+    float: left;
+    margin: 30px 0px;
+}
+.news-two h2{
+	text-transform: capitalize;
+    font-family: emoji;
+
+}
+.news-two h1{
+    width: 70%;
+}
+.news-two p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+    width: 75%;
+
+}
+.news-btn-two{
+	padding: 6px 10px;
+    text-transform: lowercase;
+    margin: 22px -1px;
+    background: green;
+    color: white;
+
+}
+/*place section*/
+.place-section{
+	width: 100%;
+	float: left;
+}
+.place{
+	width: 100%;
+	float: left;
+	background:#DCDCDC;
+	height:200px;
+}
+.place-title{
+	text-align: center;
+	
+}
+.place-title i {
+    display: block;
+    margin: 21px;
+}
+.fa.fa-map-o {
+    margin-top: 12px;
+    margin-left: -7px;
+}
+/*star section*/
+.star{
+	width: 100%;
+	float: left;
+}
+.star-img img{
+    width: 331px;
+    height: 194px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+/*mention section*/
+.mention{
+	width: 100%;
+	float: left;
+}
+.mention-img img{
+	background:#808080;
+
+}
+/*footer section*/
+.footer{
+	width: 100%;
+	float: left;
+}
+.footer-title{
+	width: 100%;
+	float: left;
+	text-align: center;
+	background:#303841;
+}
+
+.footer-title p{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
